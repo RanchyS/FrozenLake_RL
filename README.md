@@ -1,7 +1,8 @@
 FrozenLake_RL 
 
 ## Proje Açıklaması
- Bu repo, Pekiştirmeli Öğrenme algoritmalarını matris tabanlı bir ortamda uygulamak için geliştirilmiştir. FrozenLake ortamında Q-Learning ve Deep Q-Network algoritmalarının eğitim süreçlerini detaylı şekilde incelemektedir.
+ Bu repo, Pekiştirmeli Öğrenme algoritmalarını matris tabanlı bir ortamda uygulamak için geliştirilmiştir. FrozenLake ortamında Q-Learning ve Deep Q-Network algoritmalarının eğitim süreçlerini detaylı şekilde incelemektedir. 
+  Ortam hakkında bilgi edinmek için [FrozenLake](https://www.gymlibrary.dev/environments/toy_text/frozen_lake/)
 
 ## İçerik 
 - Q-Learning: Tablosal öğrenme yaklaşımı
@@ -26,8 +27,8 @@ FrozenLake_RL/                        # Ana proje klasörü
 ├── README.md                         # Proje tanıtımı ve açıklamalar  
 ├── gorsellestirme.py                 # Isı haritalarını elde etmeye yarayan kodlar  
 ├── map_4x4.png                       # Eğitimde kullanılan 4x4'lük harita  
-├── map_8x8.png                       # Isı haritalarını elde etmeye yarayan kodlar  
-├── map_11x11.png                     # Isı haritalarını elde etmeye yarayan kodlar  
+├── map_8x8.png                       # Eğitimde kullanılan 8x8'lik harita  
+├── map_11x11.png                     # Eğitimde kullanılan 11x11'lik harita  
 
 ## Örnek Bir İnceleme
 Aşağıda, FrozenLake 4x4 ortamının, non_slippery versiyonuna ilişkin çeşitli sonuçlar gösterilmiştir.  
